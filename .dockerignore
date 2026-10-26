@@ -1,0 +1,23 @@
+secrets/
+proxy/certs/
+backups/
+api/Dockerfile
+
+# Version control
+.git
+.gitignore
+
+# Mac and editor junk, in any folder
+**/.DS_Store
+**/.~*
+
+# Python caches and local environments
+**/__pycache__/
+**/*.pyc
+.venv/
+
+# Runtime output and project files the images don't need
+logs/
+reports/
+docs/
+scripts/
